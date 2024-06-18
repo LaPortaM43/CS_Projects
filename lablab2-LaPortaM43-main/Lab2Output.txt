@@ -1,0 +1,60 @@
+--------------------------------------------
+Verifying State hashCode and equals methods
+--------------------------------------------
+State1 equals State2: true
+State1 hash code: -40520319
+State2 hash code: -40520319
+StateTest2 equals StateTest3: false
+StateTest2 hash code: -40520319
+StateTest3 hash code: -1843997890
+-----------------------------------------------
+Verifying Governor hashCode and equals methods
+-----------------------------------------------
+GovernorTest1 equals Governor2: true
+GovernorTest1 hash code: -1218327221
+GovernorTest2 hash code: -1218327221
+GovernorTest2 equals GovernorTest3: false
+GovernorTest2 hash code: -1218327221
+GovernorTest3 hash code: -1546732290
+--------------------------------------------------------
+Inserting State Objects to HashSet and printing if added
+--------------------------------------------------------
+New Jersey added: true
+New York added: true
+Pennsylvania added: true
+Delaware added: true
+Maryland added: true
+Connecticut added: true
+New Jersey 2 added: false
+--------------------------------------
+Iterate through HashSet for each State
+--------------------------------------
+State [name=Maryland, coastLength=31, stateBird=Oriole]
+State [name=New Jersey, coastLength=130, stateBird=Eastern Goldfinch]
+State [name=Connecticut, coastLength=96, stateBird=Robin]
+State [name=Pennsylvania, coastLength=0, stateBird=Ruffled Grouse]
+State [name=New York, coastLength=127, stateBird=Eastern Bluebird]
+State [name=Delaware, coastLength=28, stateBird=Blue Hen]
+---------------------------------
+Number of elements in HashMap: 6
+---------------------------------
+--------------------
+Elements in HashMap:
+--------------------
+State: State [name=Maryland, coastLength=31, stateBird=Oriole] - Governor: Governor [name=Moore, age=44]
+State: State [name=New Jersey, coastLength=130, stateBird=Eastern Goldfinch] - Governor: Governor [name=Murphy, age=65]
+State: State [name=Connecticut, coastLength=96, stateBird=Robin] - Governor: Governor [name=Lamont, age=69]
+State: State [name=Pennsylvania, coastLength=0, stateBird=Ruffled Grouse] - Governor: Governor [name=Shapiro, age=49]
+State: State [name=New York, coastLength=127, stateBird=Eastern Bluebird] - Governor: Governor [name=Hochul, age=64]
+State: State [name=Delaware, coastLength=28, stateBird=Blue Hen] - Governor: Governor [name=Carney, age=66]
+-----------------------------------------------------
+Governor for New York: Governor [name=Hochul, age=64]
+-----------------------------------------------------
+------------------------------------
+Determining governor for New Jersey:
+------------------------------------
+Governor for New Jersey: Governor [name=Murphy, age=65]
+-----------------------------------------------------
+Determine if State object rhodeIsland exists as a key
+-----------------------------------------------------
+Rhode Island does not exist in HashMap.
